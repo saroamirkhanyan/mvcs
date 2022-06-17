@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "name": "mvcs",
+  "version": "1.0.0",
+  "main": "mvcs.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "lint": "eslint . && prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\" \"**/*.ts\"",
+    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\" \"**/*.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
