@@ -6,9 +6,6 @@ const Store = require('./lib/store.js');
 const NodeMVCS = require('./lib/nodemvcs.js');
 
 const metaxAPI = new MetaxAPI({
-  protocol: 'https',
-  hostname: 'ehayq.am',
-  port: 444,
   fetch,
 });
 
