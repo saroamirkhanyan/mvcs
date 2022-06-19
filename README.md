@@ -1,9 +1,10 @@
 # MVCS - Metax based Version Control System
 
 ### Installation
+
 ```
 git clone https://github.com/saroamirkhanyan/mvcs
-cd mvcs 
+cd mvcs
 npm i
 cd ..
 ```
