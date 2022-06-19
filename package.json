@@ -1,26 +1,26 @@
 {
-	"name": "mvcs",
-	"version": "1.0.1",
-	"main": "mvcs.js",
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"description": "",
-	"dependencies": {
-		"node-fetch": "^2.6.7"
-	},
-	"directories": {
-		"lib": "lib"
-	},
-	"devDependencies": {
-		"eslint": "^8.18.0",
-		"prettier": "^2.7.1"
-	},
-	"scripts": {
-		"lint": "eslint . && prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\" \"**/*.ts\"",
-		"fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\" \"**/*.ts\""
-	},
-	"bin": {
-		"mvcs": "mvcs.js"
-	}
+  "name": "mvcs",
+  "version": "1.0.2",
+  "main": "mvcs.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "lint": "eslint . && prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\" \"**/*.ts\"",
+    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\" \"**/*.ts\""
+  },
+  "bin": {
+    "mvcs": "./bin/mvcs.sh"
+  }
 }
