@@ -21,7 +21,7 @@ const store = new Store(metaxAPI);
       nodemvcs.create();
     },
     save() {
-      const commitId = nodemvcs.save();
+      const commitId = await nodemvcs.save();
       if (commitId) {
         console.log('COMMIT', commitId);
       } else {
