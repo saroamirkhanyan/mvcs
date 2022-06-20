@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 const fetch = require('node-fetch');
 
-const { MetaxAPI, Store } = require('../mvcs.js');
+const { MetaxAPI, Store, NodeMVCS } = require('../mvcs.js');
 
 const metaxAPI = new MetaxAPI({
   fetch,
