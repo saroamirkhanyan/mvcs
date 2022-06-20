@@ -1,6 +1,6 @@
 {
   "name": "mvcs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "mvcs.js",
   "keywords": [],
   "author": "",
@@ -21,6 +21,6 @@
     "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\" \"**/*.ts\""
   },
   "bin": {
-    "mvcs": "./bin/mvcs.sh"
+    "mvcs": "./bin/mvcs.js"
   }
 }
