@@ -1,5 +1,8 @@
 # MVCS - Metax based Version Control System
 
+### Requirements
+  Metax - Read more in ggg.leviathan.am
+
 ### Installation
 
 ```
